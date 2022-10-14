@@ -17,12 +17,37 @@
 
 }
 
+.instagramlink {
+position: absolute;
+left: 270px;
+top: 4px;
+display: sticky;
+opacity: 60%;
+width: 40px; /* entspricht der Grafikbreite */
+height: 40px; /* entspricht der Grafikhöhe */
+/* background: url('./img/instagram-logo.png'); */
+}
+
+.instagramlink2 {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 1px;
+}
+
+.instagramlogo {
+	  margin: 10px 0;
+	  background-size: cover;
+	  background-position: right;
+}
+
 canvas{
 	position: fixed;
 }
 
 #header{
 	color: #565a5c;
+
 }
 .button {
 /* display: inline-block; */
@@ -59,7 +84,7 @@ margin: 3px; */
 
 
 body {
-	font-family: 'Inter', serif;
+	font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #565a5c;
@@ -228,10 +253,14 @@ h3 {
 
 h4, h5 {
   margin-top: 2em;
+	letter-spacing: 0.05em;
+	font-weight: 600;
+  font-style: normal;
+	line-height: 150%;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .navbar-brand img {
@@ -243,10 +272,10 @@ h4 {
 }
 
 .navbar.scroll {
-	  -webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.1);
+	  /* -webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.1);
     -moz-box-shadow:    1px 1px 1px 0px rgba(50, 50, 50, 0.1);
     box-shadow:         1px 1px 1px 0px rgba(50, 50, 50, 0.1);
-}
+} */
 
 p {
 	font-size: 17px;
